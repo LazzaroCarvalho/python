@@ -1,0 +1,19 @@
+n1=int(input('Digite um número: '))
+
+n2 = 1
+n3 = 2
+n4 = 3
+n5 = 4
+n6 = 5
+
+soma1 = n1 + n2
+soma2 = n1 + n3
+soma3 = n3 + n4
+soma4 = n4 + n5
+soma5 = n1 + n6
+
+print('{} + {} = {}'.format(n1,n2,soma1))
+print('{} + {} = {}'.format(n1,n3,soma2))
+print('{} + {} = {}'.format(n1,n4,soma3))
+print('{} + {} = {}'.format(n1,n5,soma4))
+print('{} + {} = {}'.format(n1,n6,soma5))
